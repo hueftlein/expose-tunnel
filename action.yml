@@ -1,4 +1,4 @@
-name: "Expose Tunnel"
+name: "Fixed Expose Tunnel"
 description: "Easily create tunnels to access your GitHub Action workflows from public endpoints"
 inputs:
   service:
