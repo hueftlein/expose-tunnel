@@ -16,7 +16,7 @@ const startTunnel = async (port) => {
       return undefined;
     }
     // Ensure nothing comes after the URL.
-    const [cleanUrlPart, ..._rest] = restWithUrlPart.split(" ");
+    const [cleanUrlPart, ..._rest] = restWithUrlPart.split("\n");
     const url = `http${cleanUrlPart}`.replace(/\r?\n|\r/g, "").trim();
     return url;
   };
