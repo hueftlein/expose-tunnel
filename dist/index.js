@@ -2928,7 +2928,7 @@ const startTunnel = async (port) => {
   const { tunnelUrl, tunnelFailed } = await waitForTunnelToBeReady();
 
   return {
-    tunnelUrl,
+    tunnelUrl: url,
     tunnelFailed,
     tunnelProcess: tunnel,
   };
